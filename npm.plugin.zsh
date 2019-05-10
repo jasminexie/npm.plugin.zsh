@@ -25,7 +25,7 @@ alias nnewf="npm init -f"
 alias ni="npm i"
 
 # Install package / dependencies globally
-alias nig="npm i -g"
+alias nig="sudo npm i -g"
 
 # Install and save to dependencies in package.json
 alias nis="npm i -S"
@@ -49,13 +49,13 @@ alias nioe="npm i -O -E"
 alias nu="npm update"
 
 # Update package(s) globally
-alias nug="npm update -g"
+alias nug="sudo npm update -g"
 
 # Uninstall package / dependencies
 alias nrm="npm rm"
 
 # Uninstall package / dependencies globally
-alias nrmg="npm rm -g"
+alias nrmg="sudo npm rm -g"
 
 # Uninstall and remove from dependencies in package.json
 alias nrms="npm rm -S"

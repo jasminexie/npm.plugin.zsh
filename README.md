@@ -8,6 +8,8 @@ This plugin provides shortcuts for common npm commands and enables npm completio
 
 _Originally based on [the default Oh-My-ZSH npm plugin](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/npm)._
 
+Forked from [igoradamenko's awesome npm plugin](https://github.com/igoradamenko/npm.plugin.zsh), with the `sudo` commandadded to npm global installs, removals and updates (as required by the default npm global module bin on macOS). Because I'm lazy like that.
+
 ##  Usage
 
 Read [plugin file](npm.plugin.zsh), learn aliases and use it rest of your life.
